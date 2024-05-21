@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Jersey';
+  src: url('Jersey15Charted-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('Schibsted_Grotesk.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Regular';
+  src: url('CormorantGaramond-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'micro5charted-regular.ttf';
+  src: url('micro5charted-regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'JacquardaBastarda9Charted-Regular.ttf';
+  src: url('JacquardaBastarda9Charted-Regular.ttf') format('truetype');
+
+}
+
+:root {
+  --first-font: 'Jersey', sans-serif;
+  --second-font: 'Schibsted Grotesk', sans-serif;
+  --third-font: 'CormorantGaramond-Regular', sans-serif;
+  --fourth-font: 'Micro5Charted-Regular.ttf', sans-serif;
+  --fifth-font: 'JacquardaBastarda9Charted-Regular.ttf', sans-serif;
+}
+
+
+
+html {
+ 	font-family: var(--second-font);
+	font-size: 0.9em;
+	margin:0px;
+	padding:0px;
+
+}
+
+#main{
+	margin:-10px;
+	padding:-10px;
+	border: 1px solid red;
+
+
+}
+
+#foo{
+	height:100px;
+	width:100%;
+	position: fixed	;
+	background-color: rgba(255,255,255,1);
+
+}
+#header{
+	height:400px;
+
+}
+
+#title{
+	position: fixed	;
+	top: 40px;
+	left: 10%;
+	font-size: 1em;
+}
+
+
+#categories{
+	float: right;
+	position: fixed;
+	top: 40px;
+	right: 10%;
+	font-size: 1em;
+
+}
+
+
+#colorscheme{
+	padding-right:20px;
+}
+
+#content{
+	margin: 0 auto;
+	width: 60%;
+	font-size: 0.8em;
+}
+
+.category{
+	padding-right:30px;
+	cursor:pointer;
+}
+
+
+#begin{
+}
+
+#begin{
+	height:200px;
+}
+#end {
+	position: fixed;
+	float: right;
+	font-size: 1em;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+
+#footer{
+	position:fixed;
+	bottom: 100px;
+	left: 20px;
+	font-size:0.7em;
+	transform: rotate(90deg);
+	transform-origin: 0% 0%;
+}
+
+
+
+
+
+
+
